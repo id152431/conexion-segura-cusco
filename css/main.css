@@ -89,7 +89,7 @@ textarea {
 
 :root{
   --header:#ffffff;
-  --fontMenu: #e63a23;
+  --fontMenu: #000000;
   --fontCont: #000000;
 
 }
@@ -257,23 +257,32 @@ blockquote{
   }
 }
 .main-content p{
+  font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   margin-bottom: 200px;
   color: var(--fontCont);
 }
 .main-content p a{
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: var(--fontCont);
 }
-.sections-desc{
-  display: flex;
-  justify-content: space-between;
+@media(min-width:768px){
+  .sections-desc{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 0;
+  }
+  .sections-desc p{
+    flex: 0 0 60%;
+    padding: 0 5%;
+  }
 }
-.sections-desc p{
-  flex: 0 0 calc(60% - 3rem);
-}
+
 .sections-desc img{
-  padding: 0 3rem;
+  max-width: 30rem;
+  border: 4px solid #b3b1b1;
+  border-radius: 5px;
 }
 .parallax:before{
      width: 100%;
