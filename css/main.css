@@ -115,7 +115,7 @@ html{
  box-sizing: inherit;
 }
 body{
- font-family: 'Roboto', sans-serif;
+ font-family: 'Prompt', sans-serif;
  line-height: 1.5;
 }
 
@@ -147,7 +147,7 @@ span{font-weight: bold;}
 blockquote{
   font-size: 1.6rem;
   color: #1c9808;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Prompt', sans-serif;
   max-width: 45rem;
   margin: 0 auto;
 }
@@ -204,7 +204,7 @@ blockquote{
 }
 .main-navigation a{
  color: var(--fontMenu);
- font-family: 'Roboto', sans-serif;
+ font-family: 'Prompt', sans-serif;
  font-size: 1.6rem;
  font-weight: 300;
  display: block;
@@ -241,7 +241,7 @@ blockquote{
 
 }
 .action-bar p{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Prompt', sans-serif;
   color: #FFF;
   font-size: 1.8rem;
   display: block;
@@ -257,13 +257,13 @@ blockquote{
   }
 }
 .main-content p{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 1.6rem;
   margin-bottom: 200px;
   color: var(--fontCont);
 }
 .main-content p a{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-weight: bold;
   color: var(--fontCont);
 }
@@ -350,7 +350,7 @@ blockquote{
   margin-top: 3rem;
   text-align: left;
   color: var(--fontMenu);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 @media(min-width:768px){
   .p-footer {
@@ -402,7 +402,7 @@ p.copyright {
   text-align: center;
   font-weight: 300;
   color: var(--fontMenu);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 1.6rem;
   margin-top: 5rem;
 }
