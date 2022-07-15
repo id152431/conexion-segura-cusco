@@ -88,8 +88,8 @@ textarea {
    ========================================================================== */
 
 :root{
-  --header:#3e6db6;
-  --fontMenu: #222299;
+  --header:#ffffff;
+  --fontMenu: #e63a23;
   --fontCont: #000000;
 
 }
@@ -164,6 +164,7 @@ blockquote{
   width: 100%;
   z-index: 10;
   background-color: var(--header);
+  /* background-color: #efe43e; */
 }
 .header-container{
   height: 100%;
@@ -233,6 +234,19 @@ blockquote{
    }
 }
 /* mainGlobal */
+.action-bar{
+  overflow: hidden;
+  margin-top: 10.8rem;
+  background-color: #e63a23;
+
+}
+.action-bar p{
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-size: 1.8rem;
+  display: block;
+  padding: 0rem 0;
+}
 .main-content{
   margin: 10rem auto 7rem auto;
   max-width: 90rem;
