@@ -265,6 +265,16 @@ blockquote{
   font-weight: bold;
   color: var(--fontCont);
 }
+.sections-desc{
+  display: flex;
+  justify-content: space-between;
+}
+.sections-desc p{
+  flex: 0 0 calc(60% - 3rem);
+}
+.sections-desc img{
+  padding: 0 3rem;
+}
 .parallax:before{
      width: 100%;
      height: 100%;
